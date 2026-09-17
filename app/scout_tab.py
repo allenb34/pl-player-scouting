@@ -51,8 +51,11 @@ def render():
 
     st.subheader(f"Top {n} similar players")
     display_cols = ["Player", "Squad", "Pos", "similarity_score", "raw_distance"] + RADAR_FEATURES
+    display_df = results[display_cols].copy()
+    display_df.index = range(1, len(display_df) + 1)
+    display_df.index.name = "Rank"
     st.dataframe(
-        results[display_cols].style.format(
+        display_df.style.format(
             {c: "{:.3f}" for c in ["similarity_score", "raw_distance"] + RADAR_FEATURES}
         ),
         use_container_width=True,
