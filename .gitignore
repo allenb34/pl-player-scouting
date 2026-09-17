@@ -1,0 +1,5 @@
+.env
+data/raw/
+__pycache__/
+*.pyc
+modeling/artifacts/*.pkl

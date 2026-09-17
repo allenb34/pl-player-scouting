@@ -1,0 +1,42 @@
+{
+  "sweep": {
+    "4": {
+      "inertia": 1639.4751950217042,
+      "silhouette": 0.2170589631913358
+    },
+    "5": {
+      "inertia": 1495.4352055557529,
+      "silhouette": 0.20136548286428196
+    },
+    "6": {
+      "inertia": 1345.5575493784877,
+      "silhouette": 0.19628126051085057
+    },
+    "7": {
+      "inertia": 1274.623783063835,
+      "silhouette": 0.18418295453916253
+    },
+    "8": {
+      "inertia": 1190.912933333068,
+      "silhouette": 0.18176519335644867
+    },
+    "9": {
+      "inertia": 1142.818593537746,
+      "silhouette": 0.17233085872887863
+    },
+    "10": {
+      "inertia": 1080.8292842576905,
+      "silhouette": 0.17413939937316267
+    },
+    "11": {
+      "inertia": 1059.416393139626,
+      "silhouette": 0.1704043291072846
+    },
+    "12": {
+      "inertia": 1018.287872929047,
+      "silhouette": 0.16900707321303993
+    }
+  },
+  "chosen_k": 4,
+  "reasoning": "k=4 chosen: highest silhouette score (0.217) across the k=4..12 sweep. Inertia decreases monotonically (expected) without a sharp elbow given the small (9-dimension) feature space, so silhouette - which directly measures cluster separation - is the more reliable signal here."
+}

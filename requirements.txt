@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+streamlit>=1.38
+truststore>=0.9
+requests>=2.31
+lxml>=5.0
+html5lib>=1.1
+soccerdata>=1.6

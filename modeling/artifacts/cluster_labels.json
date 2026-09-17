@@ -1,0 +1,90 @@
+{
+  "0": {
+    "label": "Low finishing efficiency, low clinical finishing, low goal-scoring",
+    "member_count": 129,
+    "top_features": [
+      {
+        "feature": "G/Sh",
+        "mean_zscore": -0.88114819624031
+      },
+      {
+        "feature": "G/SoT",
+        "mean_zscore": -0.8516367917125656
+      },
+      {
+        "feature": "Gls/90",
+        "mean_zscore": -0.7698387499915531
+      },
+      {
+        "feature": "Sh/90",
+        "mean_zscore": -0.7115182653360764
+      }
+    ]
+  },
+  "1": {
+    "label": "High assist-creating, high shot volume, low interceptions",
+    "member_count": 87,
+    "top_features": [
+      {
+        "feature": "Ast/90",
+        "mean_zscore": 0.8289611468898296
+      },
+      {
+        "feature": "Sh/90",
+        "mean_zscore": 0.8028534124400936
+      },
+      {
+        "feature": "Int/90",
+        "mean_zscore": -0.7922613964745034
+      },
+      {
+        "feature": "TklWInt/90",
+        "mean_zscore": -0.7628878360728691
+      }
+    ]
+  },
+  "2": {
+    "label": "High goal-scoring, high shot volume, low defensive workrate",
+    "member_count": 43,
+    "top_features": [
+      {
+        "feature": "Gls/90",
+        "mean_zscore": 2.101718524231501
+      },
+      {
+        "feature": "Sh/90",
+        "mean_zscore": 1.4609294940657058
+      },
+      {
+        "feature": "TklWInt/90",
+        "mean_zscore": -1.2604593644927649
+      },
+      {
+        "feature": "Int/90",
+        "mean_zscore": -1.1407121533944824
+      }
+    ]
+  },
+  "3": {
+    "label": "High clinical finishing, high finishing efficiency, high defensive workrate",
+    "member_count": 97,
+    "top_features": [
+      {
+        "feature": "G/SoT",
+        "mean_zscore": 0.8604655789605244
+      },
+      {
+        "feature": "G/Sh",
+        "mean_zscore": 0.7857216752572508
+      },
+      {
+        "feature": "TklWInt/90",
+        "mean_zscore": 0.5174021155439373
+      },
+      {
+        "feature": "TklW/90",
+        "mean_zscore": 0.4719189686908176
+      }
+    ]
+  }
+}
